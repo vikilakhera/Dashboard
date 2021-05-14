@@ -6,6 +6,7 @@ import * as AiIcons from "react-icons/ai";
 import { SidebarData } from "./sidebarData";
 import SubMenu from "./subMenu";
 import Footer from "./footer";
+import Profile from "./profile";
 import { IconContext } from "react-icons/lib";
 
 const Nav = styled.div`
@@ -23,7 +24,7 @@ const Nav = styled.div`
 const NavIcon = styled(Link)`
   margin-left: 2rem;
   font-size: 2rem;
-  height: 80px;
+  height: 50px;
   justify-content: flex-start;
   align-items: center;
   display: none;
@@ -62,7 +63,7 @@ const NavSearch = styled.div`
   margin-left: 260px;
   display: flex;
   @media (max-width: 767px){
-      margin-left: 0;
+      margin-left: 20px;
   }
 `;
 
@@ -76,6 +77,7 @@ const Sidebar = () => {
         <>
             <IconContext.Provider value={{ color: "#fff"}}>
                 <Nav>
+                    <Profile/>
                     <NavIcon to="#">
                         <FaIcons.FaBars onClick={showSidebar} />
                     </NavIcon>
