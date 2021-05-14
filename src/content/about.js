@@ -8,21 +8,6 @@ export const AboutUs = () => {
   );
 };
   
-export const OurAim = () => {
-  return (
-    <div className="home">
-      <h1> Aim</h1>
-    </div>
-  );
-};
-  
-export const OurVision = () => {
-  return (
-    <div className="home">
-      <h1>Vision</h1>
-    </div>
-  );
-};
 
 export const Contact = () => {
     return(
@@ -40,21 +25,6 @@ export const Events = () => {
     );
   };
     
-export const EventsOne = () => {
-    return (
-      <div className="events">
-        <h1>Event1</h1>
-      </div>
-    );
-  };
-    
-export const EventsTwo = () => {
-    return (
-      <div className="events">
-        <h1>Event2</h1>
-      </div>
-    );
-  };
 
 export const Services = () => {
     return (
@@ -64,29 +34,6 @@ export const Services = () => {
     );
   };
     
-export const ServicesOne = () => {
-    return (
-      <div className="services">
-        <h1>Service1</h1>
-      </div>
-    );
-  };
-    
-export const ServicesTwo = () => {
-    return (
-      <div className="services">
-        <h1>Service2</h1>
-      </div>
-    );
-  };
-    
-export const ServicesThree = () => {
-    return (
-      <div className="services">
-        <h1>Service3</h1>
-      </div>
-    );
-  };
 
 export const Support = () => {
     return (
